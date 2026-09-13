@@ -1,0 +1,930 @@
+{
+  "schemaVersion": 1,
+  "title": "Frankie · Clinical Record Dashboard",
+  "lastUpdated": "2026-09-13T08:52:14-07:00",
+  "privacyNotice": "Derived from Frankie's local veterinary records. Raw documents and direct identifiers are not published here. Verify current instructions with the treating veterinarian.",
+  "subject": {
+    "name": "Frankie",
+    "recordName": "Coko / COKO",
+    "species": "dog",
+    "sexStatus": "spayed female",
+    "breed": "Terrier / Mix Breed",
+    "color": "tan / white / tan",
+    "intakeDate": "2026-06-13",
+    "intakeType": "owner surrender",
+    "dobStatus": "conflicting source records; do not treat as reconciled",
+    "dobRecords": [
+      {
+        "date": "2026-04-20",
+        "source": "Los Angeles County spay/alteration certificate dated 2026-06-18",
+        "source_file": "sources/2026-06-19_spay-certificate.pdf"
+      },
+      {
+        "date": "2026-04-13",
+        "source": "PV Village Pet Hospital discharge summary generated 2026-06-22",
+        "source_file": "sources/2026-06-22_pv-village-pet-hospital-visit-summary.pdf"
+      },
+      {
+        "date": "2026-04-13",
+        "source": "PV Village Pet Hospital immunization report generated 2026-08-17",
+        "source_file": "sources/2026-08-17_pv-village-immunizations-page-1.heic"
+      },
+      {
+        "date": "2026-04-13",
+        "source": "PV Village Pet Hospital original immunization PDF generated 2026-08-31",
+        "source_file": "sources/2026-08-31_pv-village-immunizations.pdf"
+      },
+      {
+        "date": "2026-04-20",
+        "source": "VEG Torrance emergency visit record dated 2026-09-05/2026-09-06",
+        "source_file": "sources/2026-09-05_veg-torrance-emergency-visit-medical-record.pdf"
+      },
+      {
+        "date": "2026-05-06",
+        "source": "VSR2744 radiology report for contrast-enhanced MRI dated 2026-09-08",
+        "source_file": "sources/2026-09-08_vsr2744_mri-radiology-report.pdf"
+      }
+    ],
+    "allergies": "None Recorded",
+    "microchipOnFile": true
+  },
+  "currentStatus": {
+    "as_of": "2026-09-11",
+    "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf",
+    "summary": "Slightly more active but still painful/stiff with hyporexia/nausea; drinking and urinating normally; temperature 102.2°F, respiratory rate 30, heart rate 120, weight 3.8 kg.",
+    "important_abnormalities": [
+      "WBC 30.51 K/µL with neutrophilia",
+      "platelets 100 K/µL and still below reference",
+      "ALP >993 U/L",
+      "total bilirubin 1.3 mg/dL",
+      "globulin 4.2 g/dL"
+    ],
+    "open_items": [
+      "Repeat abdominal ultrasound with internist/radiologist focused on liver and gallbladder.",
+      "Recheck CBC/send-out CBC per veterinarian because of ongoing thrombocytopenia.",
+      "Confirm whether any CSF culture or other send-out remains pending; final CSF cytology in the supplied record is non-inflammatory/non-infectious.",
+      "Maintain medication sequencing and NSAID/steroid precautions exactly as prescribed."
+    ]
+  },
+  "returnPrecautions": [
+    "Stopping eating",
+    "Persistent vomiting or diarrhea",
+    "Increasing lethargy or weakness",
+    "Difficulty breathing",
+    "Pain or discomfort",
+    "Petechiae, bruising, gum/nose bleeding, blood in urine/stool, or black/tarry stool"
+  ],
+  "weights": [
+    {
+      "date": "2026-06-14",
+      "weight_lb": 4.6,
+      "context": "shelter intake exam"
+    },
+    {
+      "date": "2026-06-18",
+      "weight_lb": 5.2,
+      "context": "shelter pre-spay exam"
+    },
+    {
+      "date": "2026-06-22",
+      "weight_kg": 2.5,
+      "weight_lb": 5.51,
+      "context": "PV Village Pet Hospital visit summary"
+    },
+    {
+      "date": "2026-08-17",
+      "weight_kg": 4.0,
+      "weight_lb": 8.82,
+      "context": "PV Village immunization report generated 2026-08-17; patient listed as 18 weeks old"
+    },
+    {
+      "date": "2026-08-31",
+      "weight_kg": 4.0,
+      "weight_lb": 8.82,
+      "context": "PV Village original immunization PDF generated 2026-08-31; patient listed as 20 weeks old; same listed weight as 2026-08-17 report and may be carried forward rather than a new measurement"
+    },
+    {
+      "date": "2026-09-05",
+      "weight_kg": 4.16,
+      "weight_lb": 9.17,
+      "context": "VEG Torrance emergency visit intake at 10:20 PM"
+    }
+  ],
+  "vaccines": [
+    {
+      "date": "2026-06-15",
+      "item": "DHLPP / DHPP",
+      "detail": "Shelter vaccine; PV Village schedule notes DHPP done at shelter"
+    },
+    {
+      "date": "2026-06-15",
+      "item": "Bordetella",
+      "detail": "Intranasal; PV Village schedule notes done at shelter"
+    },
+    {
+      "date": "2026-06-15",
+      "item": "Pyrantel pamoate",
+      "detail": "50 mg/mL suspension, 1.0 mL PO"
+    },
+    {
+      "date": "2026-06-15",
+      "item": "Ponazuril",
+      "detail": "250 mg/mL suspension, 1.0 mL PO"
+    },
+    {
+      "date": "2026-06-15",
+      "item": "NexGard / afoxolaner",
+      "detail": "11.3 mg PO"
+    },
+    {
+      "date": "2026-06-15",
+      "item": "Capstar / nitenpyram",
+      "detail": "11.4 mg PO"
+    },
+    {
+      "date": "2026-06-18",
+      "item": "Vetprofen / carprofen",
+      "detail": "25 mg tablet, 1/2 tab PO SID x 3 days with food; post-spay pain-control recommendation"
+    },
+    {
+      "date": "2026-07-13",
+      "item": "Vanguard Plus 5 DHPP",
+      "manufacturer": "Zoetis",
+      "lot_number": "871450A",
+      "expiration_date": "2027-08-26",
+      "site": "right front leg",
+      "route": "subcutaneous",
+      "provider": "Dr. Jessica Hoffman",
+      "next_due": "2026-08-03",
+      "source_file": "sources/2026-08-17_pv-village-immunizations-page-1.heic"
+    },
+    {
+      "date": "2026-08-10",
+      "item": "Vanguard Plus 5 DHPP",
+      "manufacturer": "Zoetis",
+      "lot_number": "871450A",
+      "expiration_date": "2027-08-26",
+      "site": "right front leg",
+      "route": "subcutaneous",
+      "provider": "Team No Provider",
+      "next_due": "2027-08-10",
+      "source_file": "sources/2026-08-31_pv-village-immunizations.pdf",
+      "corroborating_source_files": [
+        "sources/2026-08-17_pv-village-immunizations-page-1.heic"
+      ],
+      "source_precedence": "Original 2026-08-31 PDF is primary; 2026-08-17 photographed report corroborates all overlapping fields."
+    },
+    {
+      "date": "2026-08-10",
+      "item": "Vanguard Rabies (3 Year)",
+      "manufacturer": "Zoetis",
+      "lot_number": "846878B",
+      "expiration_date": "2027-04-24",
+      "site": "right rear leg",
+      "route": "subcutaneous",
+      "provider": "Dr. Kathryn Francis",
+      "next_due": "2027-08-10",
+      "source_file": "sources/2026-08-31_pv-village-immunizations.pdf",
+      "corroborating_source_files": [
+        "sources/2026-08-17_pv-village-immunizations-page-1.heic"
+      ],
+      "source_precedence": "Original 2026-08-31 PDF is primary; 2026-08-17 photographed report corroborates all overlapping fields."
+    },
+    {
+      "date": "2026-08-10",
+      "item": "Vanguard L4 Lepto",
+      "manufacturer": "Zoetis",
+      "lot_number": "855461B",
+      "expiration_date": "2027-07-27",
+      "site": "left rear leg",
+      "route": "subcutaneous",
+      "provider": "Team No Provider",
+      "next_due": "2026-08-31",
+      "source_file": "sources/2026-08-31_pv-village-immunizations.pdf",
+      "corroborating_source_files": [
+        "sources/2026-08-17_pv-village-immunizations-page-1.heic"
+      ],
+      "source_precedence": "Original 2026-08-31 PDF is primary; 2026-08-17 photographed report corroborates all overlapping fields."
+    },
+    {
+      "date": "2026-08-31",
+      "item": "Leptospirosis vaccine dose (history-reported)",
+      "detail": "VEG intake history on 2026-09-05 says 'Lepto booster last Monday' and 'UTD on all other vaccines.' The radiology history instead says 'first Lepto vax on Monday.' No formal administration certificate or product, lot, site, route, or provider details are present in the forwarded VEG record.",
+      "status": "Reported in clinical history; formal immunization administration record not archived",
+      "source_file": "sources/2026-09-05_veg-torrance-emergency-visit-medical-record.pdf"
+    }
+  ],
+  "preventiveSchedule": [
+    {
+      "date": "2026-07-13",
+      "age_label": "12 weeks",
+      "items": [
+        "DHPP",
+        "Lepto"
+      ],
+      "status": "DHPP documented as administered; Lepto is not documented on uploaded page 1"
+    },
+    {
+      "date": "2026-08-10",
+      "age_label": "16 weeks",
+      "items": [
+        "DHPP",
+        "Lepto",
+        "Rabies"
+      ],
+      "status": "all three documented as administered"
+    },
+    {
+      "date": "2026-07-15",
+      "age_label": "3 months",
+      "items": [
+        "Simparica Trio"
+      ],
+      "status": "administration not confirmed in uploaded records"
+    },
+    {
+      "date": "2026-08-15",
+      "age_label": "4 months",
+      "items": [
+        "Simparica Trio"
+      ],
+      "status": "administration not confirmed in uploaded records"
+    },
+    {
+      "date": "2026-08-31",
+      "items": [
+        "Vanguard L4 Lepto booster"
+      ],
+      "status": "VEG 2026-09-05 history reports a Lepto booster was given 'last Monday' (2026-08-31), but the same record's radiology history calls it a first Lepto dose. Formal administration details are not archived."
+    },
+    {
+      "date": "2026-09-15",
+      "age_label": "5 months",
+      "items": [
+        "Simparica Trio"
+      ],
+      "status": "planned in 2026-06-22 visit summary; administration not yet confirmed"
+    },
+    {
+      "date": "2027-08-10",
+      "items": [
+        "DHPP",
+        "Rabies"
+      ],
+      "status": "next due per 2026-08-17 immunization report"
+    },
+    {
+      "date": "as soon as possible",
+      "items": [
+        "Fresh stool sample / fecal test"
+      ]
+    },
+    {
+      "age_label": "6-7 months",
+      "items": [
+        "First heartworm test; noted as not included in basic puppy pack"
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "start_date": "2026-09-07",
+      "item": "Carprofen 25 mg tablets",
+      "instructions": "Give 1/4 tablet by mouth every 12 hours with food for inflammatory pain; prescribed for the next 2-3 days; total quantity 2 tablets.",
+      "precautions": "Do not combine with steroids or other NSAIDs. Stop and contact a veterinarian for vomiting or dark stools.",
+      "source_file": "sources/2026-09-05_veg-torrance-emergency-visit-medical-record.pdf"
+    },
+    {
+      "start_date": "2026-09-07",
+      "item": "Doxycycline suspension 50 mg/mL",
+      "instructions": "Give 0.4 mL by mouth every 12 hours with food for a total of 14 days.",
+      "evidence_status": "ACCESS discharge medication as written; PV Village 2026-09-11 says continue twice daily.",
+      "source_file": "sources/2026-09-07_access-culver-city-specialty-record.pdf"
+    },
+    {
+      "date": "2026-09-11",
+      "item": "Carprofen status",
+      "instructions": "Carprofen was on hand but withheld at PV Village during NSAID washout while possible steroid treatment was being considered. Do not combine an NSAID with steroids or another NSAID.",
+      "evidence_status": "Clinician-documented plan; exact last carprofen dose is not supplied in the later records.",
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    },
+    {
+      "date": "2026-09-11",
+      "item": "Ondansetron 4 mg tablets",
+      "instructions": "Give 1/2 tablet PO every 8–12 hours as needed for nausea; refills 2.",
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    },
+    {
+      "date": "2026-09-11",
+      "item": "Entyce 30 mg/mL",
+      "instructions": "Give 0.4 mL PO once daily as needed; approximately 5 days.",
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    },
+    {
+      "date": "2026-09-11",
+      "item": "Gabapentin oral solution 50 mg/mL",
+      "instructions": "Give 0.5–0.8 mL PO every 8–12 hours as needed for pain; avoid if improving because of oversedation risk.",
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    }
+  ],
+  "emergencyVisits": [
+    {
+      "visit_start": "2026-09-05T22:20:00-07:00",
+      "treatment_date": "2026-09-06",
+      "facility": "Veterinary Emergency Group (VEG) Torrance",
+      "provider": "Dr. Amber Lee",
+      "status": "outpatient",
+      "presenting_complaints": [
+        "decreased appetite",
+        "fever",
+        "lethargy"
+      ],
+      "history_summary": "Acute lethargy and inappetence after several days at puppy school, decreased drinking and urination, and faster breathing at rest; no vomiting or diarrhea. Owner was concerned about leptospirosis.",
+      "vitals": {
+        "weight_kg": 4.16,
+        "weight_lb": 9.17,
+        "heart_rate_bpm": 150,
+        "respiratory_rate_bpm": 50,
+        "respiratory_effort": "0/5",
+        "temperature_f_recorded": [
+          102.8,
+          104.1
+        ],
+        "temperature_note": "102.8 F appears in the intake vitals; the treatment sheet also lists 104.1 F without a clear timestamp.",
+        "mentation": "dull",
+        "hydration": "euhydrated"
+      },
+      "exam_findings": [
+        "Consistent pain response over the mid thoracolumbar spine, hunched posture, and reluctance to move; ambulatory on all four limbs with no ataxia or paresis.",
+        "Slightly increased bilateral breath sounds without major crackles or wheezes; eupneic.",
+        "Abdomen soft and compliant without overt pain."
+      ],
+      "assessment_as_documented": [
+        "Inappetence: rule out pain vs infection vs nausea vs other.",
+        "Lethargy: rule out pain vs infection.",
+        "Febrile: rule out inflammation vs infection.",
+        "Suspected mid thoracolumbar spinal pain: traumatic injury, muscle sprain/strain, disc problem, myelopathy, or vertebral bone lesion.",
+        "Inflammatory leukogram: traumatic injury vs other inflammation vs infection."
+      ],
+      "diagnostics": {
+        "cbc": {
+          "hematocrit_percent": 37.3,
+          "wbc_k_per_uL": 21.01,
+          "neutrophils_k_per_uL": 13.69,
+          "monocytes_k_per_uL": 2.56,
+          "platelets_k_per_uL": 115,
+          "bands": "suspected",
+          "record_note": "VEG summarized this as an inflammatory leukogram."
+        },
+        "chemistry": {
+          "globulin_g_per_dL": 4.1,
+          "record_note": "VEG assessment says the remainder was within normal limits; electrolytes were within normal limits."
+        },
+        "parvovirus_snap": "negative",
+        "leptospirosis_witness_rapid_test": "negative",
+        "radiographs": {
+          "study": "Six thoracic and abdominal radiographs",
+          "summary": "No pneumonia and no mechanical obstruction. Gastric material could be undigested food, although foreign body was not excluded. Small-intestinal material likely represented digesting food; slow transit/paralytic ileus due to enteritis was considered.",
+          "recommendation": "Repeat abdominal radiographs after 4-6 hours of fasting or obtain an abdominal ultrasound."
+        }
+      },
+      "treatments_given": [
+        {
+          "item": "Lactated Ringer solution",
+          "dose": "80 mL",
+          "route": "subcutaneous",
+          "note": "Administration confirmed in the later communication note; charge was courtesy-comped after discharge."
+        },
+        {
+          "item": "Robenacoxib injectable",
+          "dose": "8.40 mg",
+          "route": "subcutaneous",
+          "administered_at": "2026-09-06T02:00:00-07:00"
+        }
+      ],
+      "antibiotics": "Held because no obvious infection source was identified.",
+      "discharge_plan": {
+        "medication": "Carprofen 25 mg tablets: give 1/4 tablet by mouth every 12 hours with food for inflammatory pain; total quantity 2 tablets; next dose listed as 2026-09-07 AM.",
+        "medication_precautions": "Do not combine with steroids or other NSAIDs. Stop and contact a veterinarian for vomiting or dark stools.",
+        "activity": "Strict rest for 1-2 weeks: no running, jumping, stairs, or rough play; short leashed elimination walks only, then gradually increase activity in week 2.",
+        "diet": "Resume regular diet; boiled boneless skinless chicken breast, cooked rice, and low-sodium chicken broth may be used as a topper for a few days to encourage eating.",
+        "recheck": "Primary veterinarian in 3-5 days, or sooner if worsening.",
+        "return_precautions": [
+          "limping",
+          "difficulty walking or moving",
+          "severe weakness",
+          "vomiting or diarrhea",
+          "persistent inappetence",
+          "labored breathing",
+          "rapid decline"
+        ]
+      },
+      "invoice": {
+        "invoice_id": "3722496",
+        "total_usd": 1656.56,
+        "balance_usd": 0.0,
+        "payment_usd": 1903.74,
+        "refund_usd": 247.18,
+        "source_file": "sources/2026-09-05_veg-torrance-emergency-visit-invoice.pdf"
+      },
+      "vaccine_history_note": "The visit history reports a Lepto booster on Monday 2026-08-31 and all other vaccines up to date; the radiology history inconsistently calls that Monday dose the first Lepto vaccine. This is history, not a formal immunization administration record.",
+      "source_files": [
+        "sources/2026-09-05_veg-torrance-emergency-visit-medical-record.pdf",
+        "sources/2026-09-05_veg-torrance-emergency-visit-invoice.pdf"
+      ],
+      "text_extracts": [
+        "ocr/2026-09-05_veg-torrance-emergency-visit-medical-record_text.txt",
+        "ocr/2026-09-05_veg-torrance-emergency-visit-invoice_text.txt"
+      ]
+    }
+  ],
+  "hospitalizations": [
+    {
+      "episode": "VEG Torrance hospitalization/readmission",
+      "admission_datetime": "2026-09-06T12:05:00-07:00",
+      "disposition_datetime": "2026-09-07T11:18:00-07:00",
+      "facility": "Veterinary Emergency Group (VEG) Torrance",
+      "providers_documented": [
+        "Dr. Emily Rue",
+        "Tina Son, DVM, DACVECC",
+        "Olivia Church"
+      ],
+      "status": "Hospitalized and transferred to ACCESS Culver City for specialty evaluation.",
+      "reason_for_return": "Persistent/worsening fever, lethargy, poor appetite, increased respiratory rate, intermittent trembling/retching, vocalization, and back/neck pain after the initial ER visit.",
+      "vitals": [
+        {
+          "context": "VEG intake",
+          "temperature_f": 103.8,
+          "heart_rate_bpm": 132,
+          "respiratory_rate_bpm": 36,
+          "weight_kg": 4.1
+        },
+        {
+          "context": "last recorded in the visit summary",
+          "temperature_f": 102.9,
+          "heart_rate_bpm": 160,
+          "respiratory_rate_bpm": 36,
+          "weight_kg": 4.17
+        }
+      ],
+      "examination": [
+        "Pain on thoracolumbar palpation and right neck flexion without proprioception deficits.",
+        "Later examination documented moderate thoracolumbar pain increasing during the morning, tachypnea, approximately 5% dehydration, and firm/enlarged submandibular and inguinal lymph nodes; no persistent neurologic deficit was documented."
+      ],
+      "diagnostics": {
+        "urinalysis": "Source assessment called the urinalysis unremarkable. Raw report: cystocentesis, specific gravity 1.035, trace protein, 2+ leukocyte esterase, 2 WBC/HPF, 1 RBC/HPF, no bacteria detected.",
+        "abdominal_ultrasound": "Mild hepatomegaly, moderate gallbladder sediment, and mild splenomegaly; no biliary obstruction/disease, renal abnormality, pancreatic abnormality, intestinal obstruction, or peritoneal effusion identified.",
+        "abdominal_thoracic_pocus": "No pleural, pericardial, or peritoneal effusion; fluid score 0/4.",
+        "repeat_radiographs_2026_09_07": "Possible scant pleural fissure/effusion was raised on radiographs, but POCUS found no effusion. Abdomen was radiographically unremarkable with no pneumonia, mechanical obstruction, or foreign material; prior gastric opacity was no longer seen.",
+        "platelets": "VEG record documents a platelet count of 186,000/µL during this episode; later ACCESS measurements were lower and are recorded separately."
+      },
+      "treatments": [
+        "Lactated Ringers at 10 mL/hr, increased to 16 mL/hr for persistent pyrexia and mild dehydration.",
+        "Unasyn 30 mg/kg IV every 8 hours.",
+        "Methadone 0.2 mg/kg IV every 8 hours, later every 6 hours in the treatment plan.",
+        "Maropitant 1 mg/kg IV every 24 hours.",
+        "Gabapentin 10–12 mg/kg PO every 8 hours.",
+        "Carprofen 6.25 mg PO every 12 hours appears on the Sep 7 in-hospital plan; later PV Village documentation says carprofen was being withheld during NSAID washout."
+      ],
+      "transfer_reason": "Persistent fever and increasing thoracolumbar pain despite treatment; transfer for advanced imaging and specialty consultation.",
+      "source_file": "sources/2026-09-06_veg-torrance-hospitalization-record.pdf"
+    },
+    {
+      "episode": "ACCESS Animal Specialty Hospital — Culver City specialty workup",
+      "recorded_span": "2026-09-07 through 2026-09-11 in the bundled ACCESS record",
+      "facility": "ACCESS Animal Specialty Hospital - Los Angeles, Culver City",
+      "services_and_providers": [
+        "Neurology — Melissa Andruzzi, DVM, DACVIM",
+        "Internal Medicine — Max Emanuel, VMD, DACVIM (SAIM)",
+        "Gabrielle Wilkins, DVM",
+        "Jason Gray, DVM"
+      ],
+      "reason_for_transfer": "Persistent pyrexia, lethargy, hyporexia, thrombocytopenia, anemia, and intermittent thoracolumbar discomfort after VEG hospitalization.",
+      "clinical_findings": [
+        "Neurologic examinations documented normal gait and no neurologic deficits, with mild thoracolumbar kyphosis/discomfort and possible left carpus discomfort.",
+        "Fever persisted during the workup, with recorded temperatures up to 104.5°F; appetite and overall clinical status improved enough for outpatient monitoring in the discharge instructions.",
+        "ACCESS discharge instructions emphasize close monitoring because of thrombocytopenia and recommend a send-out CBC through the regular veterinarian within the next couple of days."
+      ],
+      "diagnostics": {
+        "snap_4dx": "Negative for heartworm antigen, Ehrlichia spp., Lyme/Borrelia burgdorferi, and Anaplasma spp.",
+        "cbc_2026_09_07": "WBC 18.38 K/µL, HCT 30.6%, Hgb 10.8 g/dL, platelets 86 K/µL by analyzer and 80,000/µL manually with minimal clumping; neutrophils 13.31 K/µL; BUN 5 mg/dL; globulin 4.1 g/dL.",
+        "antech_cbc_2026_09_08": "WBC 22.3 K/µL, RBC 4.7 M/µL, Hgb 10.5 g/dL, HCT 34%, platelets 107 K/µL; giant platelets and a few small clumps noted; blood parasites none seen; reticulocytes 0.4% / 18,800/µL.",
+        "manual_platelet_2026_09_09": "54,000/µL in-house; the report does not provide a separate clumping qualification for this manual result.",
+        "csf_final_2026_09_11": "Cisternal CSF clear/colorless; protein 14.4 mg/dL, RBC 0, nucleated cell count 0. Pathologist reported normal WBC count/differential and microprotein concentration with no cytologic evidence of inflammation or infectious disease. Rare small lymphocytes were seen; no organisms or cellular atypia. The report notes that absence of cellular atypia does not exclude an underlying neoplastic process."
+      },
+      "treatments": [
+        "Unasyn 30 mg/kg IV every 8 hours.",
+        "Doxycycline 5 mg/kg PO every 12 hours.",
+        "Maropitant 1 mg/kg IV every 24 hours.",
+        "Gabapentin 50 mg PO every 8 hours and codeine 3.75 mg PO every 8 hours; PV Village later records both as discontinued because of excessive lethargy.",
+        "Lactated Ringers at 8 mL/hr.",
+        "Methadone was discontinued."
+      ],
+      "discharge_and_date_reconciliation": "The bundled ACCESS record contains discharge instructions labeled 2026-09-07 plus later ACCESS summaries/labs through 2026-09-11. The exact ACCESS discharge timestamp is not reconciled in the supplied bundle; the 2026-09-11 PV Village history says Frankie had been home since ACCESS until approximately two days earlier.",
+      "discharge_medications_as_written": [
+        "Doxycycline suspension 50 mg/mL: 0.4 mL PO every 12 hours with food for a total of 14 days; next dose listed as the following morning.",
+        "Emeprev 16 mg: 1/2 tablet PO once daily as needed for nausea; next dose listed for that evening."
+      ],
+      "return_precautions": [
+        "stopping eating",
+        "persistent vomiting or diarrhea",
+        "increasing lethargy or weakness",
+        "difficulty breathing",
+        "pain or discomfort",
+        "petechiae, bruising, gum/nose bleeding, blood in urine/stool, or black/tarry stool"
+      ],
+      "source_file": "sources/2026-09-07_access-culver-city-specialty-record.pdf"
+    }
+  ],
+  "followUpVisits": [
+    {
+      "visit_datetime": "2026-09-11T09:56:00-07:00",
+      "facility": "PV Village Pet Hospital",
+      "provider": "Dr. Caitlin Botes",
+      "reason": "Follow-up from VEG/ACCESS; CBC recheck and discussion of bloodwork.",
+      "vitals": {
+        "temperature_f": 102.2,
+        "heart_rate_bpm": 120,
+        "respiratory_rate_bpm": 30,
+        "weight_kg": 3.8,
+        "body_condition_score": 4,
+        "pain_score": 2
+      },
+      "exam": [
+        "BAR on intake; objective section describes Frankie as dull/depressed.",
+        "Generalized muscle stiffness, hunched back, and discomfort in the mid-lumbar area.",
+        "No neurologic, abdominal, respiratory, urogenital, ocular, or lymph-node abnormality documented on this exam; no obvious icterus."
+      ],
+      "owner_reported_or_history_in_record": [
+        "Slightly more active than prior days but still painful/stiff.",
+        "Gags when offered chicken or substantial food; accepting only small treats, drinking water, and urinating normally.",
+        "Notable weight loss since illness onset."
+      ],
+      "assessment_as_documented": [
+        "Thrombocytopenia, 100,000/µL in-house; rule out immune-mediated, tick-borne, viral, or other causes.",
+        "Marked ALP elevation with total bilirubin 1.3 mg/dL; rule out hepatobiliary disease, liver shunt, reactive/inflammatory change, or other.",
+        "Focal left lumbar epaxial myositis at L5-L6.",
+        "Leukocytosis with neutrophilia.",
+        "Hyporexia with nausea.",
+        "Historical fever of unknown origin, currently 102.2°F and trending toward resolution."
+      ],
+      "plan": [
+        "Continue doxycycline twice daily.",
+        "Refer back to ACCESS Culver City for repeat abdominal ultrasound with internist or radiologist focused on liver and gallbladder.",
+        "Defer steroids to the internist pending further workup; maintain NSAID washout and withhold carprofen.",
+        "Use ondansetron as primary PRN antiemetic and Cerenia if nausea persists or is not controlled.",
+        "Use gabapentin only as needed for pain/nighttime comfort and avoid if improving because of oversedation risk.",
+        "Send-out CBC to Antech was on hold per client agreement; sample retained if the client elected to send it."
+      ],
+      "prescriptions": [
+        {
+          "item": "Gabapentin oral solution 50 mg/mL",
+          "instructions": "0.5–0.8 mL PO every 8–12 hours as needed for pain.",
+          "quantity": "20"
+        },
+        {
+          "item": "Entyce appetite stimulant 30 mg/mL",
+          "instructions": "0.4 mL PO once daily as needed; approximately 5 days.",
+          "quantity": "2 mL"
+        },
+        {
+          "item": "Ondansetron 4 mg tablets",
+          "instructions": "1/2 tablet PO every 8–12 hours as needed for nausea; refills 2.",
+          "quantity": "1"
+        }
+      ],
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    }
+  ],
+  "diagnosticImaging": [
+    {
+      "study_date": "2026-09-08",
+      "report_signed_at": "2026-09-09T15:07:53Z",
+      "study_description": "MRI with Contrast",
+      "modality": "MR",
+      "anatomic_region": "cranial thoracic through lumbar spine",
+      "patient_dob_as_reported": "2026-05-06",
+      "age_as_reported": "4M",
+      "gender_as_reported": "F",
+      "contrast": "Intravenous; pre- and post-contrast multiplanar sequences.",
+      "sedation_used": "No",
+      "anesthesia_used": "No",
+      "clinical_history": [
+        "Several day history of back pain, lethargy, and inappetence.",
+        "No neurologic deficits on exam; mild thoracolumbar discomfort and kyphosis.",
+        "Listed differential: meningitis (infectious greater than immune-mediated), congenital spinal abnormality such as syringohydromyelia, then juvenile spinal neoplasia."
+      ],
+      "findings": {
+        "left_lumbar_epaxial_muscle": {
+          "level": "L5-6",
+          "dimensions_cm": [
+            2.1,
+            0.6,
+            1.3
+          ],
+          "signal": "T2/STIR hyperintense and T1 isointense",
+          "enhancement": "Mild contrast enhancement",
+          "margin": "Ill-defined"
+        },
+        "remaining_musculature": "Within normal limits",
+        "vertebral_endplates": "Within normal limits",
+        "spinal_cord": "Within normal limits",
+        "vertebral_canal": "No contrast-enhancing lesion seen",
+        "included_intra_abdominal_structures": "Within normal limits",
+        "intervertebral_discs": "Uniform peripheral annular contrast enhancement; interpreted as most likely normal due to young age, with infectious or inflammatory etiologies considered highly unlikely."
+      },
+      "impressions": [
+        "Focal left lumbar epaxial myositis at the level of L5-6.",
+        "Unremarkable spinal cord.",
+        "Uniform peripheral contrast enhancement of all intervertebral discs is most likely normal due to the patient's young age; infectious or inflammatory etiologies are considered highly unlikely."
+      ],
+      "recommendations_stated": [],
+      "radiologist": "Reynsen Shigemoto, DVM, MS, DACVR",
+      "record_interpretation": "The source localizes an abnormality to focal lumbar muscle rather than the spinal cord or vertebral canal, but does not establish the cause of the myositis or whether it accounts for every pain location.",
+      "source_file": "sources/2026-09-08_vsr2744_mri-radiology-report.pdf",
+      "source_precedence": "Primary source for the 2026-09-08 MRI radiology report."
+    },
+    {
+      "study_date": "2026-09-06",
+      "study_description": "Complete abdominal ultrasound",
+      "modality": "Ultrasound",
+      "facility": "VEG Torrance",
+      "findings": {
+        "liver": "Subjectively normal to mildly enlarged; homogeneous, no masses/nodules/cysts.",
+        "gallbladder_biliary_tree": "Moderate dependent and intraluminal sediment; normal wall; no biliary disease or obstruction.",
+        "spleen": "Subjectively mildly enlarged, homogeneous, normal Doppler flow, no masses/nodules.",
+        "kidneys_adrenals_gi_pancreas_bladder_peritoneum": "No significant abnormality described; normal motility and no free fluid."
+      },
+      "interpretation": "Mild hepatomegaly, moderate gallbladder sediment, and mild splenomegaly; source lists normal-variation, reactive, inflammatory, metabolic, or infiltrative possibilities rather than a definitive cause.",
+      "source_file": "sources/2026-09-06_veg-torrance-hospitalization-record.pdf"
+    },
+    {
+      "study_date": "2026-09-07",
+      "study_description": "Repeat orthogonal thorax and abdomen radiographs",
+      "modality": "Radiography",
+      "facility": "VEG Torrance",
+      "findings": "Possible scant pleural fissure/effusion on radiographs; no pleural effusion on same-episode thoracic POCUS. Radiographically unremarkable abdomen; no pneumonia, mechanical obstruction, or foreign material.",
+      "source_file": "sources/2026-09-07_access-culver-city-specialty-record.pdf"
+    }
+  ],
+  "diagnosticTests": [
+    {
+      "test": "IDEXX Fever of Unknown Origin RealPCR Panel (Comprehensive) — Canine",
+      "collection_date": "2026-09-06",
+      "result_date": "2026-09-10",
+      "overall_result": "All reported targets negative.",
+      "negative_targets": [
+        "Babesia spp.",
+        "Anaplasma spp.",
+        "Ehrlichia spp.",
+        "Rickettsia spp.",
+        "Hepatozoon spp.",
+        "Leishmania spp.",
+        "Bartonella spp.",
+        "Brucella canis",
+        "Trypanosoma cruzi",
+        "Blastomyces dermatitidis",
+        "Coccidioides spp.",
+        "Cryptococcus spp.",
+        "Histoplasma capsulatum",
+        "Neospora spp.",
+        "Leptospira spp. — blood PCR",
+        "Leptospira spp. — urine PCR",
+        "Toxoplasma gondii"
+      ],
+      "interpretation_limit": "The laboratory report states that a negative result does not fully exclude infection when organism numbers are below detection, reduced after treatment, due to chronic carrier state, or because of strain variation.",
+      "source_file": "sources/2026-09-10_fuo-pcr-panel.pdf"
+    },
+    {
+      "test": "Cisternal CSF fluid analysis with cytology",
+      "collection_date": "2026-09-08",
+      "result_date": "2026-09-11",
+      "result": "Normal WBC count/differential and normal microprotein concentration; no cytologic evidence of inflammation or infectious disease in the sample.",
+      "raw_values": {
+        "protein_mg_per_dL": 14.4,
+        "rbc_cells_per_uL": 0,
+        "nucleated_cells_per_uL": 0,
+        "appearance": "colorless/clear"
+      },
+      "limitations": [
+        "Very low cellularity with rare small lymphocytes.",
+        "No organisms or cellular atypia identified.",
+        "Report states absence of cellular atypia does not exclude an underlying neoplastic process.",
+        "PV Village follow-up says final culture results were pending; no separate CSF culture report is included in this bundle."
+      ],
+      "source_file": "sources/2026-09-07_access-culver-city-specialty-record.pdf"
+    }
+  ],
+  "laboratoryResults": [
+    {
+      "date": "2026-09-11",
+      "facility": "PV Village Pet Hospital",
+      "context": "CBC and chemistry recheck",
+      "cbc": {
+        "wbc_k_per_uL": 30.51,
+        "neutrophils_k_per_uL": 25.78,
+        "monocytes_k_per_uL": 1.63,
+        "hct_percent": 39.7,
+        "hgb_g_per_dL": 13.5,
+        "platelets_k_per_uL": 100,
+        "mpv_fL": 11.2
+      },
+      "chemistry": {
+        "total_bilirubin_mg_per_dL": 1.3,
+        "alp_u_per_L": ">993",
+        "alt_u_per_L": 94,
+        "ggt_u_per_L": "<10",
+        "globulin_g_per_dL": 4.2,
+        "cholesterol_mg_per_dL": 407,
+        "creatinine_mg_per_dL": 0.5,
+        "bun_mg_per_dL": 10.0,
+        "electrolytes": "Reported within normal limits; chloride 100 mEq/L was below the listed 102–120 reference range."
+      },
+      "source_interpretation": "Leukocytosis/neutrophilia and persistent thrombocytopenia with improved platelets versus the reported Access discharge value; marked ALP elevation and hyperbilirubinemia prompted repeat liver/gallbladder imaging referral.",
+      "source_file": "sources/2026-09-11_pv-village-follow-up-visit-summary.pdf"
+    }
+  ],
+  "ownerReportedUpdates": [
+    {
+      "reported_at": "2026-09-06T10:01:31-07:00",
+      "status": "Still not feeling well after discharge from the VEG Torrance emergency visit; family plans prompt veterinary re-evaluation.",
+      "source": "Owner-reported history",
+      "limitations": "No repeat temperature, respiratory rate, intake/output details, or examination findings were provided with this update."
+    },
+    {
+      "reported_at": "2026-09-06T12:07:21-07:00",
+      "status": "Family attempted evaluation at another hospital reported to have CT capability, but CT was unavailable; they returned to the original facility and elected hospital admission.",
+      "source": "Owner-reported history",
+      "limitations": "No repeat examination findings, admission orders, imaging, or laboratory results were available with this update."
+    },
+    {
+      "reported_at": "2026-09-06T12:18:10-07:00",
+      "status": "Spinal tenderness appeared worse than the prior day, and Frankie resisted neck manipulation more today.",
+      "source": "Owner observation Owner-reported history",
+      "limitations": "Owner-observed interval change; not yet confirmed or localized by a documented veterinary neurologic examination."
+    },
+    {
+      "recorded_at": "2026-09-07T13:32:36.120060-07:00",
+      "evidence_status": "owner-reported; school and inpatient findings owner-relayed",
+      "source_file": "sources/2026-09-07_owner-current-illness-hpi.md",
+      "hpi": "## Owner-provided current-illness HPI\n\nEvidence: Owner's Telegram history; inpatient results and school statements are owner-relayed, not new signed veterinary records.\n\n- August 31, 2026: Started Love Ur K9 puppy school; final leptospirosis booster that afternoon, per owner. Tired after each school day but otherwise okay and returned to normal each morning until September 5.\n- September 4, 5 PM: School reported three big walks and advised no evening walk because she would be tired. At home tired, ate approximately 75% of dinner; owner notes this is not unusual for her selective appetite.\n- September 5 morning: Did not rush out of her crate as usual. Persistent marked lethargy, refusal of food/water, hesitant to jump onto couch. By 10 PM resting respiratory rate in the 40s–50s prompted VEG ER visit.\n- Initial ER: Fever to 104.1 F, focal thoracic tenderness, leukocytosis with mild left shift and thrombocytopenia; rapid lepto and parvo tests negative. Owner describes chest/abdominal/spinal radiographs as negative. Treated with subcutaneous fluids and an NSAID.\n- September 6: Worsened the next morning and returned; admitted. At time of this report has received three doses of Unasyn; dose, route and administration times not supplied. Thoracic focal tenderness persists; greatest observed improvement after NSAIDs. Abdominal ultrasound and urinalysis reportedly negative. Manual platelet count reportedly 187; units not supplied. Do not presume true interval platelet recovery rather than automated/manual measurement difference.\n- School: Love Ur K9 four-week Monday–Friday 9–4 program. Small puppies only, supervised play, solo walks. Staff reportedly observed no incident/injury, contacted other owners and found no other ill puppies. Thin metal slip-lead collar used for training, not walks; no prongs, with corrections described by school as very light. Exposure history does not establish an injury or cause.\n- Background: Adopted from Carson/Gardena shelter June 18, 2026 after spay at approximately eight weeks; parents unknown. Initial vaccines and microchip at shelter.\n\nReconciliation: September 5 is the first clearly abnormal persistent systemic illness per this history; September 4 tiredness/reduced dinner and prior transient post-school fatigue remain documented, not erased. August 31 vaccination remains history-reported pending formal administration record. Earlier radiology report did not fully exclude gastric foreign material and considered slow transit/ileus; preserve that report rather than replacing it with an unqualified “normal.” Archived lepto test is Witness (antibody), not antigen; parvo SNAP is antigen. No new vaccine attachment accompanies this HPI message.\n"
+    }
+  ],
+  "diet": {
+    "currentFood": {
+      "date_confirmed": "2026-06-22",
+      "brand": "Purina",
+      "product_line": "Pro Plan",
+      "life_stage": "Puppy / Chiots; under one year / moins d’un an",
+      "size_category_visible": "Small Breed",
+      "recipe_from_prior_closeup": "Chicken & Brown Rice Entrée",
+      "bag_size_from_prior_closeup": "3.74 kg / 8.25 lb",
+      "visible_claims_from_front_photo": [
+        "DHA for brain & vision development",
+        "Probiotics for a healthy gut microbiome"
+      ]
+    },
+    "history": [
+      {
+        "date": "2026-09-05",
+        "diet": "Hill's Science Diet Puppy Small Bites",
+        "context": "Listed as current diet in VEG Torrance emergency-visit history; Frankie reportedly ate about 1/2 can of Purina Pro Plan during the acute illness."
+      }
+    ],
+    "vetInstructions": "Feed puppy food with grain until 1 year of age; feed 3 meals a day until 6 months, then twice daily; switch food gradually over 7 days to prevent GI upset."
+  },
+  "sourceFiles": [
+    {
+      "date": "2026-06-19",
+      "label": "Microchip record"
+    },
+    {
+      "date": "2026-06-19",
+      "label": "Shelter medical history"
+    },
+    {
+      "date": "2026-06-19",
+      "label": "Spay / alteration certificate"
+    },
+    {
+      "date": "2026-06-22",
+      "label": "PV Village puppy visit summary"
+    },
+    {
+      "date": "2026-08-17",
+      "label": "PV Village immunization report (photographed page)"
+    },
+    {
+      "date": "2026-08-31",
+      "label": "PV Village immunization report (PDF)"
+    },
+    {
+      "date": "2026-09-05",
+      "label": "VEG Torrance emergency medical record"
+    },
+    {
+      "date": "2026-09-05",
+      "label": "VEG Torrance invoice (not published)"
+    },
+    {
+      "date": "2026-09-06",
+      "label": "VEG Torrance hospitalization record"
+    },
+    {
+      "date": "2026-09-07",
+      "label": "ACCESS Culver City specialty record"
+    },
+    {
+      "date": "2026-09-08",
+      "label": "MRI radiology report"
+    },
+    {
+      "date": "2026-09-10",
+      "label": "FUO PCR panel"
+    },
+    {
+      "date": "2026-09-11",
+      "label": "PV Village follow-up visit summary"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-06-13",
+      "type": "intake",
+      "title": "Shelter intake",
+      "summary": "Owner surrender intake at Los Angeles County Animal Care & Control; approximately 8 weeks old at intake exam."
+    },
+    {
+      "date": "2026-06-18",
+      "type": "procedure",
+      "title": "Spay / ovariohysterectomy",
+      "summary": "Spay documented in shelter records."
+    },
+    {
+      "date": "2026-06-22",
+      "type": "primary-care",
+      "title": "PV Village puppy visit",
+      "summary": "Puppy wellness/discharge summary; 2.5 kg recorded; no allergies recorded."
+    },
+    {
+      "date": "2026-07-13",
+      "type": "vaccine",
+      "title": "DHPP administration",
+      "summary": "Vanguard Plus 5 DHPP administration documented in the photographed immunization report."
+    },
+    {
+      "date": "2026-08-10",
+      "type": "vaccine",
+      "title": "DHPP, rabies, and L4 Lepto",
+      "summary": "Three immunization administrations documented in the PV Village PDF."
+    },
+    {
+      "date": "2026-08-31",
+      "type": "vaccine-history",
+      "title": "Leptospirosis dose — history reported",
+      "summary": "VEG history reports a Lepto booster on this date; another section calls it the first Lepto dose. Formal administration record is not archived.",
+      "evidenceLevel": "History-reported"
+    },
+    {
+      "date": "2026-09-05",
+      "type": "emergency",
+      "title": "VEG Torrance emergency visit",
+      "summary": "Acute lethargy, hyporexia, decreased drinking/urination, fever, faster breathing at rest, and focal thoracolumbar pain."
+    },
+    {
+      "date": "2026-09-06",
+      "type": "hospitalization",
+      "title": "VEG hospitalization / readmission",
+      "summary": "Returned for persistent or worsening fever, lethargy, poor appetite, increased respiratory rate, and back/neck pain; admitted and later transferred."
+    },
+    {
+      "date": "2026-09-07",
+      "type": "specialty",
+      "title": "ACCESS specialty workup",
+      "summary": "Neurology/internal-medicine evaluation for pyrexia, thrombocytopenia, anemia, and intermittent thoracolumbar discomfort."
+    },
+    {
+      "date": "2026-09-08",
+      "type": "imaging",
+      "title": "Contrast MRI",
+      "summary": "Focal left lumbar epaxial myositis at L5–6; spinal cord and vertebral canal unremarkable."
+    },
+    {
+      "date": "2026-09-10",
+      "type": "laboratory",
+      "title": "FUO PCR panel resulted",
+      "summary": "All listed targets, including blood and urine Leptospira PCR, reported negative; the report retains a negative-test limitation."
+    },
+    {
+      "date": "2026-09-11",
+      "type": "primary-care",
+      "title": "PV Village follow-up",
+      "summary": "Slightly more active but still painful/stiff with hyporexia/nausea; temperature 102.2°F; persistent thrombocytopenia and marked ALP elevation prompted repeat imaging/CBC follow-up."
+    }
+  ],
+  "notes": [
+    "This dashboard is a convenience view of the maintained record, not a new veterinary assessment.",
+    "Clinician-documented findings and owner-reported observations are labeled separately.",
+    "Exact source documents remain in the private local records folder and are not linked from this public page."
+  ]
+}

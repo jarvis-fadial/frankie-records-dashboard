@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import { readFile, access } from 'node:fs/promises';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import vm from 'node:vm';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const read=p=>readFile(resolve(root,p),'utf8');
+const [html,css,js,robots,raw]=await Promise.all(['index.html','styles.css','app.js','robots.txt','data/frankie.json'].map(read));
+const data=JSON.parse(raw);
+assert.equal(data.schemaVersion,1);
+for(const key of ['currentStatus','returnPrecautions','timeline','medications','diagnosticTests','laboratoryResults','sourceFiles']) assert.ok(data[key],key);
+assert.match(html,/<meta name="robots" content="[^"]*noindex[^\"]*noarchive/);
+assert.match(robots,/User-agent: \*\s+Disallow: \//);
+assert.match(html,/<html lang="en">/);
+assert.match(html,/<label for="query">/);
+for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {assert.ok(!/^https?:|^\/\//.test(match[1]));await access(resolve(root,match[1]));}
+assert.ok(!/https?:\/\/|@import|url\(/.test(css));
+assert.deepEqual([...js.matchAll(/fetch\('([^']+)'\)/g)].map(m=>m[1]),['data/frankie.json']);
+assert.ok(!/sources\/[^'"\s]+\.(pdf|heic)/.test(html));
+new vm.Script(js);
+for(const section of ['overview','timeline','encounters','diagnostics','medications','preventives','weight','owner','diet','sources']) assert.ok(js.includes(`section('${section}'`),section);
+console.log('PASS: JSON schema, required sections, local asset references, JS syntax, indexing policy and runtime data boundary.');

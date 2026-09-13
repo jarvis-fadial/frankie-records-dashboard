@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, noarchive, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Frankie · Clinical record</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to clinical record</a>
+  <header class="masthead"><a class="wordmark" href="#overview">Frankie<span>Clinical record</span></a><span class="privacy">Derived record · Raw sources private</span></header>
+  <div class="layout">
+    <aside class="sidebar"><details id="section-menu" open><summary>Record sections</summary><nav aria-label="Record sections" id="navigation"></nav></details><p class="rail-note">A record for continuity of care.<br>Verify current instructions with the treating veterinarian.</p></aside>
+    <main id="main" tabindex="-1">
+      <div class="page-heading"><div><p class="eyebrow">Clinical handoff</p><h1>Frankie’s record</h1><p id="subject" class="muted"></p></div><div id="freshness" class="freshness"></div></div>
+      <form class="search" role="search" id="search-form"><label for="query">Search the complete record</label><div class="search-row"><input type="search" id="query" name="q" placeholder="Try platelets, doxycycline, or a date" autocomplete="off" aria-describedby="search-status"><button type="button" id="clear">Clear</button></div><p id="search-status" role="status" aria-live="polite">Loading derived records…</p></form>
+      <div id="error" role="alert" hidden></div><div id="records"></div>
+      <p id="empty" hidden>No matching records. Try a shorter term or clear your search.</p>
+      <noscript><p>This dashboard needs JavaScript to display and search the local derived record.</p></noscript>
+      <footer id="footer"></footer>
+    </main>
+  </div>
+</body>
+</html>
